@@ -6,6 +6,9 @@
 @import url("./variables/color-background.css");
 @import url("./variables/color-text.css");
 
+/* fonts */
+@import url("fonts/fonts.css");
+
 /* blocks */
 
 @import url("blocks/common.css");
