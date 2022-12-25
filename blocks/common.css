@@ -129,10 +129,10 @@
   line-height: 18px;
 }
 
-.nothing-new__advantage__title {
+.nothing-new__advantage-title {
   font-weight: 700;
 }
-.nothing-new__advantage__text {
+.nothing-new__advantage-text {
   font-weight: 400;
 }
 
@@ -238,7 +238,7 @@
   background-size: cover;
 }
 
-.cover_link {
+.cover__link {
   color: var(--text-color-main);
   text-decoration: none;
 }
