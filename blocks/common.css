@@ -397,6 +397,7 @@
 
   .cover__content {
     padding: 115px var(--padding-hor-m);
+    padding: 15% var(--padding-hor-m);
   }
   .cover__title {
     margin-bottom: 32px;
@@ -476,6 +477,7 @@
 
   .nothing-new__img-list {
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 14px;
   }
 
@@ -500,6 +502,8 @@
   .place__item {
     gap: 48px 32px;
     grid-template-columns: 47.5% 1fr;
+    gap: 48px 40px;
+    grid-template-columns: 460px 1fr;
   }
 
   .place__item:not(:last-child) {
