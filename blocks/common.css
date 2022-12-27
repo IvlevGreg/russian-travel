@@ -230,8 +230,19 @@
 }
 
 .cover__content {
+  position: relative;
   padding: var(--padding-vert-xs) var(--padding-hor-xs);
+}
+.cover__content::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 
+  opacity: 0.7;
   background-image: url("/images/cover/cover-trains.jpg");
   background-repeat: no-repeat;
   background-size: cover;
