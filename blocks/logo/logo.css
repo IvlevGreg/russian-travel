@@ -1,6 +1,16 @@
 .logo {
   width: 142px;
   height: 42px;
+
+  transform: opacity 0.3s ease;
+}
+
+.logo:hover {
+  opacity: 0.8;
+}
+
+.logo:active {
+  opacity: 0.6;
 }
 
 @media screen and (min-width: 520px) {
