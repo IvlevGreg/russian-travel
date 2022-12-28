@@ -13,6 +13,7 @@ And get useful links for additional information
 ## Stack:
 - 👨‍💻 HTML
 - ✨ CSS
+-  🅱️ BEM
 
 ## Deploy: https://ivlevgreg.github.io/russian-travel/
 
