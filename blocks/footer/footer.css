@@ -1,0 +1,18 @@
+.footer {
+  padding: var(--padding-vert-xs) var(--padding-hor-xs) 24px var(--padding-hor-xs);
+}
+
+@media screen and (min-width: 520px) {
+  .footer {
+    padding: var(--padding-vert-m) var(--padding-hor-m) 24px var(--padding-hor-m);
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .footer {
+    padding: var(--padding-vert-l) var(--padding-hor-l) 24px var(--padding-hor-l);
+  }
+}

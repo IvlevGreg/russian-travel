@@ -1,0 +1,7 @@
+@media screen and (min-width: 520px) {
+  .place__link-container {
+    display: inline-block;
+    align-self: flex-end;
+    vertical-align: bottom;
+  }
+}

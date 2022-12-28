@@ -1,0 +1,22 @@
+.hero {
+  padding: var(--padding-vert-xs) var(--padding-hor-xs);
+}
+
+@media screen and (min-width: 520px) {
+  .hero {
+    padding: 20px var(--padding-hor-m) var(--padding-vert-m);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .hero {
+    padding-left: var(--padding-hor-l);
+    padding-right: var(--padding-hor-l);
+  }
+}
+
+@media screen and (min-width: 1244px) {
+  .hero {
+    padding: 26px var(--padding-hor-xl) var(--padding-vert-l);
+  }
+}

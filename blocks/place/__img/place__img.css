@@ -1,0 +1,20 @@
+.place__img {
+  width: calc(100% + 2 * var(--padding-hor-xs));
+  height: 100%;
+  margin: 0 calc(-1 * var(--padding-hor-xs)) 28px;
+
+  object-fit: cover;
+}
+
+@media screen and (min-width: 520px) {
+  .place__img {
+    width: 100%;
+    margin: 0;
+    align-self: flex-start;
+    height: auto;
+    aspect-ratio: 1/1;
+  }
+}
+
+@media screen and (min-width: 992px) {
+}

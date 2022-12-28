@@ -1,0 +1,17 @@
+.place__link {
+  margin-bottom: 32px;
+  display: inline-block;
+
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--text-color-main);
+  text-decoration: none;
+
+  box-shadow: 0 1px 0 var(--text-color-main);
+}
+
+@media screen and (min-width: 520px) {
+  .place__link {
+    margin: 0;
+  }
+}

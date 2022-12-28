@@ -1,0 +1,22 @@
+.nothing-new {
+  padding: var(--padding-vert-xs) var(--padding-hor-xs);
+}
+
+@media screen and (min-width: 520px) {
+  .nothing-new {
+    padding: var(--padding-vert-m) var(--padding-hor-m);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .nothing-new {
+    padding: var(--padding-vert-l) var(--padding-hor-l);
+  }
+}
+
+@media screen and (min-width: 1244px) {
+  .nothing-new {
+    padding-left: var(--padding-hor-xl);
+    padding-right: var(--padding-hor-xl);
+  }
+}
