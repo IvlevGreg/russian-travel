@@ -1,0 +1,3 @@
+.nav-language__btn_active {
+  border-bottom: 2px solid var(--text-color-main);
+}

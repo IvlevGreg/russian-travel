@@ -1,0 +1,21 @@
+.hero__img {
+  width: calc(100% + 2 * var(--padding-hor-xs));
+  height: 100%;
+  margin: 0 calc(-1 * var(--padding-hor-xs)) 6px;
+
+  object-fit: cover;
+}
+
+@media screen and (min-width: 520px) {
+  .hero__img {
+    width: calc(100% + 2 * var(--padding-hor-m));
+    margin: 0 calc(-1 * var(--padding-hor-m)) 6px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .hero__img {
+    width: 100%;
+    margin: 0 0 6px;
+  }
+}

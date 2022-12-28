@@ -1,0 +1,19 @@
+.header {
+  padding: 16px var(--padding-hor-xs);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 520px) {
+  .header {
+    padding: 28px var(--padding-hor-m);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .header {
+    padding-left: var(--padding-hor-l);
+    padding-right: var(--padding-hor-l);
+  }
+}

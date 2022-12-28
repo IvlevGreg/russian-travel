@@ -1,0 +1,21 @@
+.cover {
+  padding: var(--padding-vert-xs) 0;
+}
+
+@media screen and (min-width: 520px) {
+  .cover {
+    padding: var(--padding-vert-m) 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .cover {
+    padding: var(--padding-vert-l) 0;
+  }
+}
+
+@media screen and (min-width: 1244px) {
+  .cover {
+    padding: var(--padding-vert-l) var(--padding-hor-l);
+  }
+}
