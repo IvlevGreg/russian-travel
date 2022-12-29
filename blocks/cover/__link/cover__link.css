@@ -26,11 +26,11 @@
 }
 
 .cover__link:hover::after {
-  opacity: 0.3;
+  opacity: 0.2;
 }
 
 .cover__link:active::after {
-  opacity: 0.2;
+  opacity: 0.1;
 }
 
 @media screen and (min-width: 520px) {
