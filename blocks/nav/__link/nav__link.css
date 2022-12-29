@@ -4,7 +4,7 @@
   font-size: 24px;
   line-height: 24px;
 
-  transform: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
 }
 
 .nav__link:hover {

@@ -2,7 +2,7 @@
   width: 142px;
   height: 42px;
 
-  transform: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
 }
 
 .logo:hover {
