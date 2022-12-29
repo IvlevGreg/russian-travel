@@ -39,8 +39,8 @@
 @import url("../blocks/nav/__list/nav__list.css");
 
 @import url("../blocks/nav-language/nav-language.css");
-@import url("../blocks/nav-language/__btn/nav-language__btn.css");
-@import url("../blocks/nav-language/__btn/_active/nav-language__btn_active.css");
+@import url("../blocks/nav-language/__link/nav-language__link.css");
+@import url("../blocks/nav-language/__link/_active/nav-language__link_active.css");
 @import url("../blocks/nav-language/__item/nav-language__item.css");
 @import url("../blocks/nav-language/__list/nav-language__list.css");
 

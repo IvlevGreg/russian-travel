@@ -1,28 +1,26 @@
-.nav-language__btn {
+.nav-language__link {
   padding: 0;
   padding-top: 10px;
-
-  border: none;
 
   color: var(--text-color-main);
   font-size: 18px;
   line-height: 1.25;
+  text-decoration: none;
 
-  transform: opacity 0.3s ease;
-  background: none;
+  transition: opacity 0.3s ease;
   cursor: pointer;
 }
 
-.nav-language__btn:hover {
+.nav-language__link:hover {
   opacity: 0.8;
 }
 
-.nav-language__btn:active {
+.nav-language__link:active {
   opacity: 0.6;
 }
 
 @media screen and (min-width: 520px) {
-  .nav-language__btn {
+  .nav-language__link {
     font-size: 24px;
     line-height: 28px;
   }

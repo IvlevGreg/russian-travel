@@ -1,3 +1,3 @@
-.nav-language__btn_active {
+.nav-language__link_active {
   border-bottom: 2px solid var(--text-color-main);
 }
